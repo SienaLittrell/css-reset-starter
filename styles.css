@@ -163,12 +163,15 @@ p{
     margin: 0.5rem auto;
 }
 /* Image Styles */
-img{
+
+figure{
+    display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 40px;
     margin-inline-end: 40px;
 }
+
 /* Link Styles */
 a{
     color: var(--red);
